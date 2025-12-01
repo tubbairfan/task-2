@@ -1,0 +1,200 @@
+.testimonial-section {
+  background: #08204b;
+  color: white;
+  padding: 120px 8%;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.bg-title {
+  font-size: 150px;
+  font-weight: 700;
+  opacity: 0.05;
+  position: absolute;
+  top: 20px;
+  left: 8%;
+  z-index: 1;
+}
+.main-title {
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+.content-box {
+  position: relative;
+  z-index: 3;
+  max-width: 950px;
+}
+.quote-icon {
+  font-size: 60px;
+  -webkit-text-stroke: 2px #ff6b00;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.testimonial-text {
+  color: rgb(200, 210, 225);
+  line-height: 1.7;
+  width: 95%;
+}
+.person-info {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.person-info .bar {
+  width: 2px;
+  height: 45px;
+  background: #ff6b00;
+  margin-right: 20px;
+}
+.person-info h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.person-info p {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 5px;
+}
+.arrow-controls {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+.arrow-controls button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.arrow-controls button:hover {
+  background: white;
+  color: #08204b;
+}
+@media (max-width: 1200px) {
+  .testimonial-section {
+    padding: 100px 6%;
+  }
+  .bg-title {
+    font-size: 120px;
+    top: 15px;
+    left: 6%;
+  }
+  .main-title {
+    font-size: 42px;
+  }
+  .testimonial-text {
+    width: 100%;
+    font-size: 16px;
+  }
+  .person-info h4 {
+    font-size: 18px;
+  }
+  .person-info p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .testimonial-section {
+    padding: 80px 5%;
+  }
+  .bg-title {
+    font-size: 100px;
+    left: 5%;
+  }
+  .main-title {
+    font-size: 36px;
+  }
+  .testimonial-text {
+    width: 100%;
+    font-size: 15px;
+  }
+  .person-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .person-info .bar {
+    display: none; 
+  }
+  .person-info h4 {
+    font-size: 17px;
+  }
+  .person-info p {
+    font-size: 13px;
+  }
+  .arrow-controls {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-section {
+    padding: 60px 4%;
+  }
+  .bg-title {
+    font-size: 80px;
+    left: 4%;
+  }
+  .main-title {
+    font-size: 28px;
+  }
+  .testimonial-text {
+    font-size: 14px;
+  }
+  .person-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .person-info h4 {
+    font-size: 16px;
+  }
+  .person-info p {
+    font-size: 12px;
+  }
+  .arrow-controls {
+    justify-content: center;
+    gap: 10px;
+  }
+  .arrow-controls button {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .testimonial-section {
+    padding: 50px 3%;
+  }
+  .bg-title {
+    font-size: 60px;
+    left: 3%;
+  }
+  .main-title {
+    font-size: 24px;
+  }
+  .testimonial-text {
+    font-size: 13px;
+  }
+  .person-info h4 {
+    font-size: 15px;
+  }
+  .person-info p {
+    font-size: 11px;
+  }
+  .arrow-controls button {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .bg-title {
+    font-size: 50px; 
+    left: 2%;        
+  }
+  .testimonial-section {
+    padding: 40px 2%; 
+  }
+}
