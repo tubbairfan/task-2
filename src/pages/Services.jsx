@@ -1,5 +1,5 @@
 import Card from "../components/Card"
-import img1 from "../assets/images/img1.jpg"
+import img1 from "../assets/images/img-1.jpg"
 import Servicebox from "../components/Servicebox";
 import Service1 from "../assets/images/services1.png";
 import Service2 from "../assets/images/services2.png";

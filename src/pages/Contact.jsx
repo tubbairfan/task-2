@@ -1,5 +1,5 @@
 import Card from "../components/Card"
-import img1 from "../assets/images/img1.jpg"
+import img1 from "../assets/images/img-1.jpg"
 import "./Contact.css"
 const Contact = () => {
   return (

@@ -1,7 +1,7 @@
 import Card from "../components/Card";
 import"./Blog.css";
 import { Link } from "react-router-dom";
-import img1 from "../assets/images/img1.jpg"
+import img1 from "../assets/images/img-1.jpg"
 import { AboutContext } from "../Index";
 import { useContext } from "react";
 import Blog1 from "../assets/images/single_blog_1.png.webp"

@@ -4,7 +4,6 @@ import "./Navbar.css";
 import logo from "../assets/images/logo.png.webp";
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
-  // Separate states for both dropdowns (IMPORTANT)
   const [blogOpen, setBlogOpen] = useState(false);
   const [pagesOpen, setPagesOpen] = useState(false);
   const handleLinkClick = () => {

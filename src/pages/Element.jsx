@@ -1,5 +1,5 @@
 import Card from "../components/Card";
-import img1 from "../assets/images/img1.jpg"
+import img1 from "../assets/images/img-1.jpg"
 import Blog1 from "../assets/images/single_blog_1.png.webp"
 import Blog2 from "../assets/images/single_blog_2.png.webp"
 import Project1 from "../assets/images/project1.png.webp"
