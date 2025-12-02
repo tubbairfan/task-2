@@ -5,7 +5,7 @@ import { AboutContext } from "../Index";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import Testimonial from "../components/Testimonial";
-import Build1 from "../assets/images/build1.jpg"
+import Build1 from "../assets/images/construction.jpg"
 import Service1 from "../assets/images/services1.png";
 import Service2 from "../assets/images/services2.png";
 import Service3 from "../assets/images/services3.png";
